@@ -118,7 +118,7 @@ header nav a:hover{
 /* corrosel*/
 .carrosel-filmes{
     padding-left: 10px;
-    margin-top: -70px;   
+    margin-top: -50px;   
 }
 
 .box-filme{
@@ -145,7 +145,8 @@ header nav a:hover{
 /*catalago- filmes*/
 
 .catalogo-filmes{
-    padding-left: 10px;   
+    padding-left: 10px;
+    margin-top: -30px;   
 }
 
 .box-filme{
