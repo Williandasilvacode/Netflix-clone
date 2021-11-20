@@ -16,19 +16,6 @@ body{
     
 }
 
-/*header{
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-*/
-
 header .navegacao{
     position: fixed;
     z-index: 999;
@@ -41,7 +28,6 @@ header .navegacao{
     align-items: center;
     background-color: #000;
 }
-
 
 
 header .logo{
@@ -132,7 +118,7 @@ header nav a:hover{
 /* corrosel*/
 .carrosel-filmes{
     padding-left: 10px;
-    margin-top: -40px;   
+    margin-top: -70px;   
 }
 
 .box-filme{
