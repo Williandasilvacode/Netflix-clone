@@ -50,6 +50,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'arial black';
     font-size: 25px;
+    cursor: pointer;
 }
 
 header nav a{
@@ -82,7 +83,6 @@ header nav a:hover{
     margin-top: 20px;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .filme-principal .sub-titulo{
