@@ -1,7 +1,7 @@
 
 :root{
     --vermelho:#E50914;
-    --preta:#141414;
+    --preta:#000;
 }
 *{
     margin: 0;
@@ -15,18 +15,41 @@ body{
     color: white;
     
 }
-header .container{
+
+/*header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
+*/
+
+header .navegacao{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+
 
 header .logo{
     margin: 5px;
+    margin-left: 20px;
     color: var(--vermelho);
     font-family: 'arial black';
-    font-size: 40px;
+    font-size: 25px;
 }
 
 header nav a{
@@ -54,20 +77,28 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
-    margin-bottom: 40px;
-    margin-top: 10px;
-}
-
 .filme-principal .titulo{
-    margin-top: -20px;
+    align-items: center;
+    margin-top: 20px;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
+.filme-principal .sub-titulo{
+    color: var(--vermelho);
+}
+
+.filme-principal .descricao{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
 .filme-principal .botoes{
-    margin-top: 90px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .botao{
@@ -75,8 +106,8 @@ header nav a:hover{
     border: none;
     color:white;
 
-    padding: 10px 10px;
-    margin-right: 5px;
+    padding: 3px 3px;
+    margin-right: 10px;
     font-size: 12px;    
 }
 
@@ -100,8 +131,8 @@ header nav a:hover{
 
 /* corrosel*/
 .carrosel-filmes{
-    padding-left: 5px;
-    margin-top: -50px;   
+    padding-left: 10px;
+    margin-top: -40px;   
 }
 
 .box-filme{
@@ -128,7 +159,7 @@ header nav a:hover{
 /*catalago- filmes*/
 
 .catalogo-filmes{
-    padding-left: 5px;   
+    padding-left: 10px;   
 }
 
 .box-filme{
@@ -150,6 +181,13 @@ header nav a:hover{
 
 .catalogo-filmes img:hover{
     transform: scale(1);
+}
+
+/*rodapé*/
+
+footer{
+    margin: 20px 0;
+    text-align: center;
 }
 
 
