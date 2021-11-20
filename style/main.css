@@ -43,7 +43,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/suits2.jpg');
 
     height: 400px;
     background-size: cover;
@@ -60,10 +60,14 @@ header nav a:hover{
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: -20px;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.filme-principal .botoes{
+    margin-top: 90px;
 }
 
 .botao{
@@ -71,18 +75,15 @@ header nav a:hover{
     border: none;
     color:white;
 
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-    
+    padding: 10px 10px;
+    margin-right: 5px;
+    font-size: 12px;    
 }
 
 .botao:hover{
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 .botao i{
@@ -97,17 +98,60 @@ header nav a:hover{
     width: 70%;
 }
 
+/* corrosel*/
+.carrosel-filmes{
+    padding-left: 5px;
+    margin-top: -50px;   
+}
+
 .box-filme{
     height: 100%;
     width: 100%;
-    display: block;
+    display:block;
     cursor: pointer;
 }
 
-.carrosel-filmes{
-    margin-top:5px;
+.carrosel-filmes h3{
+    margin: 0px 0px 0px 5px;
 }
 
-.carrosel-filmes{
-    margin-top: 5px;
+.carrosel-filmes img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
 }
+
+.carrosel-filmes img:hover{
+    transform: scale(1);
+}
+
+/*catalago- filmes*/
+
+.catalogo-filmes{
+    padding-left: 5px;   
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display:block;
+    cursor: pointer;
+}
+
+.catalogo-filmes h3{
+    margin: 0px 0px 0px 5px;
+}
+
+.catalogo-filmes img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.catalogo-filmes img:hover{
+    transform: scale(1);
+}
+
+
+
+
